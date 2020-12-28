@@ -1,12 +1,16 @@
 @charset "UTF-8";
 .countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   margin: 6px 0 0 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .countdown li {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /* здесь дни, часы, минуты, секунды */
 .countdown li span {
@@ -14,72 +18,104 @@
   color: #44c011;
   font: 60px Verdana;
   font-family: 'Jura', sans-serif;
-  display: inline-block; }
+  display: inline-block;
+}
 
 /* разделители . и : */
 .countdown li.seperator {
   color: #fff;
   font: 54px Verdana;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .countdown li div {
   margin: 0;
   color: #a7abb1;
   font: 10pt Verdana;
-  text-align: center; }
+  text-align: center;
+}
 
 .countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 #timer {
   font-family: 'Jura', sans-serif;
-  font-size: 38px; }
+  font-size: 38px;
+}
 
 .newyear {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: rgba(0, 0, 0, 0.4);
   color: #fff;
-  align-self: center;
-  padding: 30px; }
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 30px;
+}
 
 .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 35px;
   padding-bottom: 35px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .telephone {
   font-family: 'Montserrat Alternates', sans-serif;
   background-color: #fff;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 5%;
   border: 10px solid #5e5e5e;
-  padding: 20px; }
-  .telephone h5 {
-    text-align: center; }
-  .telephone button {
-    border: none;
-    background-color: #44c011;
-    padding: 10px 20px;
-    margin-top: 4%;
-    outline: none;
-    border-radius: 10px;
-    color: #fff; }
-  .telephone input {
-    padding: 15px; }
+  padding: 20px;
+}
+
+.telephone h5 {
+  text-align: center;
+}
+
+.telephone button {
+  border: none;
+  background-color: #44c011;
+  padding: 10px 20px;
+  margin-top: 4%;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.telephone input {
+  padding: 15px;
+}
 
 .first_form input {
-  width: 100%; }
+  width: 100%;
+}
+
 .first_form .btn {
   background-color: #38a315;
   margin-top: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .rules {
-  font-size: 12px; }
-
+  font-size: 12px;
+}
 /*# sourceMappingURL=timer.css.map */
